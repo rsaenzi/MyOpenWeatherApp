@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C9D0C16438F0441F260B0EF /* Pods_MyOpenWeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C109BB96ECEA70E6B42183 /* Pods_MyOpenWeatherApp.framework */; };
 		8D4694F6F05C0C08C5266418 /* Pods_MyOpenWeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C26111894D79756793CF5F36 /* Pods_MyOpenWeatherAppUITests.framework */; };
+		B1156B9C1EE5173100EF0D25 /* APICredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1156B9B1EE5173100EF0D25 /* APICredentials.swift */; };
 		B18C15761EE4CCBE003F17A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C15751EE4CCBE003F17A7 /* AppDelegate.swift */; };
 		B18C15781EE4CCBE003F17A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C15771EE4CCBE003F17A7 /* ViewController.swift */; };
 		B18C157B1EE4CCBE003F17A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18C15791EE4CCBE003F17A7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		B18C15801EE4CCBE003F17A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18C157E1EE4CCBE003F17A7 /* LaunchScreen.storyboard */; };
 		B18C158B1EE4CCBE003F17A7 /* MyOpenWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C158A1EE4CCBE003F17A7 /* MyOpenWeatherAppTests.swift */; };
 		B18C15961EE4CCBE003F17A7 /* MyOpenWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C15951EE4CCBE003F17A7 /* MyOpenWeatherAppUITests.swift */; };
+		B193DB471EE51B65006F6F60 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193DB451EE51B65006F6F60 /* TPObfuscatedString.swift */; };
 		B5E106B1E7F6463A6A4E240B /* Pods_MyOpenWeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A012325C48C69DB253D9C45 /* Pods_MyOpenWeatherAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,7 @@
 		7BCE442713EF60581B16BE20 /* Pods-MyOpenWeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOpenWeatherAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOpenWeatherAppUITests/Pods-MyOpenWeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96853A2D6BDA71CFD525E491 /* Pods-MyOpenWeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOpenWeatherAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOpenWeatherAppTests/Pods-MyOpenWeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B579026E647EBC3E7B18C97 /* Pods-MyOpenWeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOpenWeatherAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOpenWeatherAppUITests/Pods-MyOpenWeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1156B9B1EE5173100EF0D25 /* APICredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICredentials.swift; sourceTree = "<group>"; };
 		B18C15721EE4CCBE003F17A7 /* MyOpenWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOpenWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18C15751EE4CCBE003F17A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B18C15771EE4CCBE003F17A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		B18C15911EE4CCBE003F17A7 /* MyOpenWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpenWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18C15951EE4CCBE003F17A7 /* MyOpenWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOpenWeatherAppUITests.swift; sourceTree = "<group>"; };
 		B18C15971EE4CCBE003F17A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B193DB451EE51B65006F6F60 /* TPObfuscatedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPObfuscatedString.swift; sourceTree = "<group>"; };
 		C1B229292C49CFF5D91C0F77 /* Pods-MyOpenWeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOpenWeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOpenWeatherApp/Pods-MyOpenWeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		C26111894D79756793CF5F36 /* Pods_MyOpenWeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOpenWeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +116,94 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B1156B911EE4FC8900EF0D25 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				B1156B9A1EE5130F00EF0D25 /* API */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		B1156B921EE4FCAD00EF0D25 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		B1156B941EE4FCDC00EF0D25 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		B1156B951EE4FCEC00EF0D25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		B1156B961EE502E600EF0D25 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				B1156B981EE5034600EF0D25 /* Entities */,
+				B1156B911EE4FC8900EF0D25 /* Interactors */,
+				B1156B921EE4FCAD00EF0D25 /* Presenters */,
+				B1156B971EE5030500EF0D25 /* Views */,
+			);
+			name = Viper;
+			sourceTree = "<group>";
+		};
+		B1156B971EE5030500EF0D25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B193DB481EE5338D006F6F60 /* ViewControllers */,
+				B1156B991EE5035500EF0D25 /* Storyboards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B1156B981EE5034600EF0D25 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		B1156B991EE5035500EF0D25 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B18C15791EE4CCBE003F17A7 /* Main.storyboard */,
+				B18C157E1EE4CCBE003F17A7 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B1156B9A1EE5130F00EF0D25 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B1156B9B1EE5173100EF0D25 /* APICredentials.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B1156B9E1EE519E100EF0D25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B1156B9F1EE519EA00EF0D25 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B1156B9E1EE519E100EF0D25 /* Extensions */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		B18C15691EE4CCBE003F17A7 = {
 			isa = PBXGroup;
 			children = (
@@ -137,13 +229,11 @@
 		B18C15741EE4CCBE003F17A7 /* MyOpenWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				B1DB2E071EE4DABF00DA99DD /* New Group */,
+				B193DB421EE51B4B006F6F60 /* Libraries */,
+				B1156B9F1EE519EA00EF0D25 /* Util */,
+				B1156B961EE502E600EF0D25 /* Viper */,
+				B1DB2E071EE4DABF00DA99DD /* Resources */,
 				B18C15751EE4CCBE003F17A7 /* AppDelegate.swift */,
-				B18C157C1EE4CCBE003F17A7 /* Assets.xcassets */,
-				B18C15811EE4CCBE003F17A7 /* Info.plist */,
-				B18C157E1EE4CCBE003F17A7 /* LaunchScreen.storyboard */,
-				B18C15791EE4CCBE003F17A7 /* Main.storyboard */,
-				B18C15771EE4CCBE003F17A7 /* ViewController.swift */,
 			);
 			path = MyOpenWeatherApp;
 			sourceTree = "<group>";
@@ -166,11 +256,39 @@
 			path = MyOpenWeatherAppUITests;
 			sourceTree = "<group>";
 		};
-		B1DB2E071EE4DABF00DA99DD /* New Group */ = {
+		B193DB421EE51B4B006F6F60 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B193DB431EE51B58006F6F60 /* TPObfuscatedString */,
 			);
-			name = "New Group";
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B193DB431EE51B58006F6F60 /* TPObfuscatedString */ = {
+			isa = PBXGroup;
+			children = (
+				B193DB451EE51B65006F6F60 /* TPObfuscatedString.swift */,
+			);
+			name = TPObfuscatedString;
+			sourceTree = "<group>";
+		};
+		B193DB481EE5338D006F6F60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B18C15771EE4CCBE003F17A7 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B1DB2E071EE4DABF00DA99DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1156B951EE4FCEC00EF0D25 /* Fonts */,
+				B1156B941EE4FCDC00EF0D25 /* Language */,
+				B18C157C1EE4CCBE003F17A7 /* Assets.xcassets */,
+				B18C15811EE4CCBE003F17A7 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,8 +589,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1156B9C1EE5173100EF0D25 /* APICredentials.swift in Sources */,
 				B18C15781EE4CCBE003F17A7 /* ViewController.swift in Sources */,
 				B18C15761EE4CCBE003F17A7 /* AppDelegate.swift in Sources */,
+				B193DB471EE51B65006F6F60 /* TPObfuscatedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
