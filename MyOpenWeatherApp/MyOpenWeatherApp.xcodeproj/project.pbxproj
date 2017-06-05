@@ -122,6 +122,7 @@
 				B1156B9A1EE5130F00EF0D25 /* API */,
 			);
 			name = Interactors;
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 		B1156B921EE4FCAD00EF0D25 /* Presenters */ = {
@@ -129,6 +130,7 @@
 			children = (
 			);
 			name = Presenters;
+			path = Presenters;
 			sourceTree = "<group>";
 		};
 		B1156B941EE4FCDC00EF0D25 /* Language */ = {
@@ -136,6 +138,7 @@
 			children = (
 			);
 			name = Language;
+			path = Language;
 			sourceTree = "<group>";
 		};
 		B1156B951EE4FCEC00EF0D25 /* Fonts */ = {
@@ -143,6 +146,7 @@
 			children = (
 			);
 			name = Fonts;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		B1156B961EE502E600EF0D25 /* Viper */ = {
@@ -154,15 +158,17 @@
 				B1156B971EE5030500EF0D25 /* Views */,
 			);
 			name = Viper;
+			path = Viper;
 			sourceTree = "<group>";
 		};
 		B1156B971EE5030500EF0D25 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B193DB481EE5338D006F6F60 /* ViewControllers */,
 				B1156B991EE5035500EF0D25 /* Storyboards */,
+				B193DB481EE5338D006F6F60 /* ViewControllers */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B1156B981EE5034600EF0D25 /* Entities */ = {
@@ -170,15 +176,17 @@
 			children = (
 			);
 			name = Entities;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		B1156B991EE5035500EF0D25 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				B18C15791EE4CCBE003F17A7 /* Main.storyboard */,
 				B18C157E1EE4CCBE003F17A7 /* LaunchScreen.storyboard */,
+				B18C15791EE4CCBE003F17A7 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		B1156B9A1EE5130F00EF0D25 /* API */ = {
@@ -187,6 +195,7 @@
 				B1156B9B1EE5173100EF0D25 /* APICredentials.swift */,
 			);
 			name = API;
+			path = API;
 			sourceTree = "<group>";
 		};
 		B1156B9E1EE519E100EF0D25 /* Extensions */ = {
@@ -194,6 +203,7 @@
 			children = (
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B1156B9F1EE519EA00EF0D25 /* Util */ = {
@@ -202,6 +212,7 @@
 				B1156B9E1EE519E100EF0D25 /* Extensions */,
 			);
 			name = Util;
+			path = Util;
 			sourceTree = "<group>";
 		};
 		B18C15691EE4CCBE003F17A7 = {
@@ -230,9 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				B193DB421EE51B4B006F6F60 /* Libraries */,
+				B1DB2E071EE4DABF00DA99DD /* Resources */,
 				B1156B9F1EE519EA00EF0D25 /* Util */,
 				B1156B961EE502E600EF0D25 /* Viper */,
-				B1DB2E071EE4DABF00DA99DD /* Resources */,
 				B18C15751EE4CCBE003F17A7 /* AppDelegate.swift */,
 			);
 			path = MyOpenWeatherApp;
@@ -262,6 +273,7 @@
 				B193DB431EE51B58006F6F60 /* TPObfuscatedString */,
 			);
 			name = Libraries;
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		B193DB431EE51B58006F6F60 /* TPObfuscatedString */ = {
@@ -270,6 +282,7 @@
 				B193DB451EE51B65006F6F60 /* TPObfuscatedString.swift */,
 			);
 			name = TPObfuscatedString;
+			path = TPObfuscatedString;
 			sourceTree = "<group>";
 		};
 		B193DB481EE5338D006F6F60 /* ViewControllers */ = {
@@ -278,6 +291,7 @@
 				B18C15771EE4CCBE003F17A7 /* ViewController.swift */,
 			);
 			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B1DB2E071EE4DABF00DA99DD /* Resources */ = {
@@ -289,6 +303,7 @@
 				B18C15811EE4CCBE003F17A7 /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -750,7 +765,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7F3F4K2U7H;
-				INFOPLIST_FILE = MyOpenWeatherApp/Info.plist;
+				INFOPLIST_FILE = MyOpenWeatherApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigobertosaenz.MyOpenWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -764,7 +779,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7F3F4K2U7H;
-				INFOPLIST_FILE = MyOpenWeatherApp/Info.plist;
+				INFOPLIST_FILE = MyOpenWeatherApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigobertosaenz.MyOpenWeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
